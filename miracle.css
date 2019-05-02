@@ -1,0 +1,81 @@
+/* 
+Miracle.css
+
+License: MIT
+
+Feel free to modify
+*/
+
+
+/* 
+Buttons 
+*/
+.btn-miracle{
+	display: inline-block;
+	background-image: linear-gradient(to right, #4dabff 0%, #62ddff 48%, #4dabff 100%);
+    background-size: 200% auto;
+	color: #fff;
+	outline: none !important;
+	box-shadow: none !important;
+	text-align: center;
+	cursor: pointer;
+    text-decoration: none !important;
+    max-width: 100%;
+	transition: all 300ms linear 0s;
+}
+.btn-miracle:hover{
+    background-position: right center;
+    color: #fff;
+}
+.btn-miracle.s:hover{
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .15) !important;
+}
+.btn-miracle2{
+    display: inline-block;
+    background-image: linear-gradient(to right, #96999c 10%, #597a84 50%, #2f5b84 100%);
+    background-size: 200% auto;
+    color: #ffffff;
+    outline: none !important;
+    box-shadow: none !important;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none !important;
+    max-width: 100%;
+    transition: all 300ms linear 0s;
+}
+.btn-miracle2:hover{
+    background-position: right center;
+    color: #fff;
+}
+.btn-miracle2.s:hover{
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+/* 
+Floating 
+*/
+
+.floating{
+    animation: floating 6s ease-in-out infinite;
+}
+
+@keyframes floating {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-25px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+/*
+
+Showcase
+
+*/
+.img-showcase{
+    transform:  scale(1) perspective(1240px) rotateY(-11deg) rotateX(2deg) rotate(2deg)
+}
